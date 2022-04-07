@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Linked</h1>
+    </header>
+
+    <div class="wrapper">
+        <button class="show-input-form btn-normal">Tambah Tautan</button>
+
+        <div class="container bg-white shadow form-container" id="add-note" hidden>
+            <h2 class="container-header text-center">Tambah Daftar Tautan</h2>
+            <form class="form" action="#" id="form">
+                <div class="form-group form-title">
+                    <label for="title">Masukan Judul</label>
+                    <input type="text" id="title" name="title" required>
+                </div><br>
+                <div class="form-group form-title">
+                    <label for="textNote">Masukan Tautan</label>
+                    <textarea id="textNote" name="textNote" rows="10" cols="32"></textarea>
+                </div><br>
+                <div class="button-container">
+                    <input type="button" id="cancel-input" class="btn-submit" value="Cancel"></input>
+                    <input type="submit" value="Submit" name="Submit" class="btn-submit">
+                </div>
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="container-header">List Tautan</h2>
+            <div class="list-item" id="note-list">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
