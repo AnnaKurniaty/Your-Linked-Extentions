@@ -186,6 +186,59 @@ input[type="date"],
   background-size: contain;
 }
 
+.dropbox-button {
+  background: url("../assets/icons/Dropbox_(service)-Logo.wine.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 50px;
+  border: none;
+}
+
+.drive-button {
+  background: url("../assets/icons/google-drive.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 50px;
+  border: none;
+}
+
+.pcloud-button {
+  background: url("../assets/icons/icons8-pcloud.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 50px;
+  border: none;
+}
+
+.iDrive-button {
+  background: url("../assets/icons/iDrive.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 50px;
+  border: none;
+}
+
+.onedrive-button {
+  background: url("../assets/icons/onedrive-1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 50px;
+  border: none;
+}
+
+.sync-button {
+  background: url("../assets/icons/Sync.com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 50px;
+  border: none;
+}
 
 .check-button:focus,
 .trash-button {
